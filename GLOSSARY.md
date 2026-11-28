@@ -27,3 +27,7 @@ _Avoid_: Student, user, member
 **Upstream**:
 The open-source Frappe LMS project we build on and pull fixes and updates from.
 _Avoid_: Base, core, vendor
+
+**Enrollment**:
+A **Learner**'s access to one course on a **Client Site**, granted after they pay outside the app (sales team or web checkout). The **Branded App** only shows courses the Learner has an Enrollment in.
+_Avoid_: Purchase, subscription, admission
